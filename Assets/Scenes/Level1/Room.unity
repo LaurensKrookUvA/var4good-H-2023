@@ -1634,8 +1634,105 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &991166276
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6261903103801898532, guid: 3ba428228fe32e245ba75cc0f2b0913d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0025
+      objectReference: {fileID: 0}
+    - target: {fileID: 6261903104023866058, guid: 3ba428228fe32e245ba75cc0f2b0913d, type: 3}
+      propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6261903104023866058, guid: 3ba428228fe32e245ba75cc0f2b0913d, type: 3}
+      propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6261903104023866058, guid: 3ba428228fe32e245ba75cc0f2b0913d, type: 3}
+      propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2062615858}
+    - target: {fileID: 6261903104023866058, guid: 3ba428228fe32e245ba75cc0f2b0913d, type: 3}
+      propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6261903104023866058, guid: 3ba428228fe32e245ba75cc0f2b0913d, type: 3}
+      propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LightSwitch
+      objectReference: {fileID: 0}
+    - target: {fileID: 6261903104023866058, guid: 3ba428228fe32e245ba75cc0f2b0913d, type: 3}
+      propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: LightController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6261903104023866058, guid: 3ba428228fe32e245ba75cc0f2b0913d, type: 3}
+      propertyPath: onPressed.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6261903104031996012, guid: 3ba428228fe32e245ba75cc0f2b0913d, type: 3}
+      propertyPath: m_Name
+      value: Button Extractor Hood
+      objectReference: {fileID: 0}
+    - target: {fileID: 6261903104031996015, guid: 3ba428228fe32e245ba75cc0f2b0913d, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6261903104031996015, guid: 3ba428228fe32e245ba75cc0f2b0913d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6261903104031996015, guid: 3ba428228fe32e245ba75cc0f2b0913d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6261903104031996015, guid: 3ba428228fe32e245ba75cc0f2b0913d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.361
+      objectReference: {fileID: 0}
+    - target: {fileID: 6261903104031996015, guid: 3ba428228fe32e245ba75cc0f2b0913d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.155
+      objectReference: {fileID: 0}
+    - target: {fileID: 6261903104031996015, guid: 3ba428228fe32e245ba75cc0f2b0913d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.1483
+      objectReference: {fileID: 0}
+    - target: {fileID: 6261903104031996015, guid: 3ba428228fe32e245ba75cc0f2b0913d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6261903104031996015, guid: 3ba428228fe32e245ba75cc0f2b0913d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6261903104031996015, guid: 3ba428228fe32e245ba75cc0f2b0913d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6261903104031996015, guid: 3ba428228fe32e245ba75cc0f2b0913d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6261903104031996015, guid: 3ba428228fe32e245ba75cc0f2b0913d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6261903104031996015, guid: 3ba428228fe32e245ba75cc0f2b0913d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6261903104031996015, guid: 3ba428228fe32e245ba75cc0f2b0913d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3ba428228fe32e245ba75cc0f2b0913d, type: 3}
 --- !u!1 &994773530
 GameObject:
   m_ObjectHideFlags: 0
@@ -1676,7 +1773,7 @@ Transform:
   - {fileID: 2063711883}
   - {fileID: 1934246217}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1019611426
 PrefabInstance:
@@ -1877,7 +1974,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1162729537
 GameObject:
@@ -2508,7 +2605,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 85.777, y: -90, z: 0}
 --- !u!1 &1415936357
 GameObject:
@@ -2935,7 +3032,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6261903104031996012, guid: 3ba428228fe32e245ba75cc0f2b0913d, type: 3}
       propertyPath: m_Name
-      value: Button
+      value: Button Light
       objectReference: {fileID: 0}
     - target: {fileID: 6261903104031996015, guid: 3ba428228fe32e245ba75cc0f2b0913d, type: 3}
       propertyPath: m_RootOrder
@@ -3292,6 +3389,7 @@ GameObject:
   - component: {fileID: 2062615855}
   - component: {fileID: 2062615857}
   - component: {fileID: 2062615856}
+  - component: {fileID: 2062615858}
   m_Layer: 0
   m_Name: Spot Light
   m_TagString: Untagged
@@ -3396,6 +3494,18 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &2062615858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2062615854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddbffa83cd463f640b2849f4f466d429, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2063711882
 PrefabInstance:
   m_ObjectHideFlags: 0
