@@ -37,7 +37,7 @@ public class Hand : MonoBehaviour
         _body.collisionDetectionMode = CollisionDetectionMode.Continuous;
         _body.interpolation = RigidbodyInterpolation.Interpolate;
         _body.mass = 20f;
-        _body.maxAngularVelocity = 20f;
+        _body.maxAngularVelocity = float.PositiveInfinity;
 
         // Teleport hands
         _body.position = _followTarget.position;
