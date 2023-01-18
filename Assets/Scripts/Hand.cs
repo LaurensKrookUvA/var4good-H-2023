@@ -17,8 +17,8 @@ public class Hand : MonoBehaviour
 
     // Physics
     [SerializeField] private GameObject followObject;
-    [SerializeField] private float followSpeed = 1800f;
-    [SerializeField] private float rotateSpeed = 6000f;
+    [SerializeField] private float followSpeed = 30f;
+    [SerializeField] private float rotateSpeed = 100f;
     [SerializeField] private Vector3 positionOffset;
     [SerializeField] private Vector3 rotationOffset;
     private Transform _followTarget;
@@ -57,7 +57,7 @@ public class Hand : MonoBehaviour
         // Position
         var positionWithOffset = _followTarget.TransformPoint(positionOffset);
         var distance = Vector3.Distance(positionWithOffset, transform.position);
-        _body.velocity = (positionWithOffset - transform.position).normalized * followSpeed * distance * Time.deltaTime;
+        _body.velocity = (positionWithOffset - transform.position).normalized * followSpeed * distance;
 
         // Rotation
         var rotationWithOffset = _followTarget.rotation * Quaternion.Euler(rotationOffset);
@@ -66,7 +66,7 @@ public class Hand : MonoBehaviour
         if (Mathf.Abs(axis.magnitude) != Mathf.Infinity)
         {
             if (angle > 180.0f) { angle -= 360.0f; }
-            _body.angularVelocity = axis * angle * Mathf.Deg2Rad * rotateSpeed * Time.deltaTime;
+            _body.angularVelocity = axis * angle * Mathf.Deg2Rad * rotateSpeed;
         }
     }
 
