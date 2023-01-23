@@ -2025,7 +2025,7 @@ MonoBehaviour:
   - name: FirstLine
     clip: {fileID: 8300000, guid: 9e54e0abb232ee843a47b00d340d3c73, type: 3}
     volume: 1
-    pitch: 1
+    pitch: 1.3
     spatialBlend: 1
     source: {fileID: 0}
 --- !u!4 &1721215854
