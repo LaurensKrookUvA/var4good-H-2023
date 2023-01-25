@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Level2/Hall.unity
+    guid: 33d5d00daaef3764988aa5ab6e366869
+  - enabled: 1
     path: Assets/Scenes/Level2/LivingRoom.unity
     guid: 99aa84849f050a346bf8d1f1651dd7d7
   - enabled: 1
@@ -20,9 +23,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level2/Bathroom.unity
     guid: 0f389a131cf76b04897c298c9760f021
-  - enabled: 1
-    path: Assets/Scenes/Level2/Hall.unity
-    guid: 33d5d00daaef3764988aa5ab6e366869
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 1e31831aa017c924ebcecfb97c99a77d, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 92a1b80b92ed11c44a93260543affda1, type: 2}

@@ -4,7 +4,7 @@ using System;
 
 public class PhysicsButton : MonoBehaviour
 {
-    [SerializeField] private float threshold = 0.001f; 
+    [SerializeField] private float threshold = 0.1f;
     [SerializeField] private float deadZone = 0.025f;
 
     private bool _isPressed;
@@ -26,7 +26,7 @@ public class PhysicsButton : MonoBehaviour
         if (!_isPressed && GetValue() + threshold >= 1)
             Pressed();
         if (_isPressed && GetValue() - threshold <= 0)
-            Released();     
+            Released();
     }
 
     private float GetValue()
@@ -35,7 +35,7 @@ public class PhysicsButton : MonoBehaviour
 
         if (Math.Abs(value) < deadZone)
             value = 0;
-        
+
         return Mathf.Clamp(value, -1f, 1f);
     }
 
