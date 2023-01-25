@@ -4,7 +4,7 @@ using System;
 
 public class PhysicsButton : MonoBehaviour
 {
-    [SerializeField] private float threshold = 0.1f; 
+    [SerializeField] private float threshold = 0.001f; 
     [SerializeField] private float deadZone = 0.025f;
 
     private bool _isPressed;
