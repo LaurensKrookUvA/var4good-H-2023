@@ -23,7 +23,8 @@ public class ClockUI : MonoBehaviour
         ClockText.text = $"{TimeManager.Hour:00}:{TimeManager.Minute:00}";
     }
 
-    public void buttonPressed() {
+    public void onClick() {
         ButtonText.text = "pressed";
+        Debug.Log("pressed");
     }
 }
